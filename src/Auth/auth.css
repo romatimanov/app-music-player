@@ -1,0 +1,27 @@
+.error-text {
+  font-size: 14px;
+  color: red;
+}
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+.form-input {
+  width: 100%;
+  border: 1px solid #7c7c7c;
+  border-radius: 5px;
+  padding: 5px 12px;
+}
+.error {
+  border: 1px solid red;
+}
+.form-btn__group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
+}
+.form-btn {
+  background: none;
+  font-size: 18px;
+}

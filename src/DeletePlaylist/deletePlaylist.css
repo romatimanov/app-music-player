@@ -1,0 +1,31 @@
+.delete-playlist {
+  text-align: center;
+}
+.delete-btn__group {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.delete-btn {
+  cursor: pointer;
+  padding: 7px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.delete-btn__yes {
+  background-color: #459138;
+}
+.delete-btn__no {
+  background-color: #ff6262;
+}
+@media (min-width: 920px) {
+  .delete-btn__yes:hover {
+    background-color: #3a792f;
+  }
+  .delete-btn__no:hover {
+    background-color: #e63737;
+  }
+}

@@ -1,0 +1,14 @@
+.button {
+  padding: 12px 24px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #fc6d3e;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+@media (min-width: 920px) {
+  .button:hover {
+    background-color: #fc6d3ea4;
+  }
+}

@@ -1,0 +1,74 @@
+.aside {
+  width: 20%;
+  background-color: #f5f5f5;
+}
+.aside-list {
+  padding: 0;
+}
+.aside-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 30px;
+}
+.aside-item__active {
+  background-color: #fff;
+}
+.aside-create__content {
+  display: flex;
+  flex-direction: column;
+}
+.aside-create__input {
+  padding: 5px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 7px;
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+.aside-create__btn {
+  background-color: #fff;
+  font-size: 16px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 7px;
+}
+.aside-item__link {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.aside-playlist__delete-img {
+  width: 32px;
+  height: 32px;
+}
+.aside-item__playlist {
+  justify-content: space-between;
+}
+@media (max-width: 920px) {
+  .aside {
+    width: 100%;
+    background: transparent;
+  }
+  .aside-create__content {
+    margin-bottom: 15px;
+  }
+  .aside-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: scroll;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+  .aside-item {
+    white-space: nowrap;
+  }
+  .aside-item__active {
+    background-color: #fc6d3e;
+    border-radius: 30px;
+    color: #fff;
+  }
+  .aside-item__icon {
+    display: none;
+  }
+}
