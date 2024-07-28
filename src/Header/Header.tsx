@@ -21,7 +21,6 @@ export function Header({ onSearchInputChange }: HeaderProps) {
     closeModal: closeLoginModal,
   } = useModal();
   const { token } = useTokenContext();
-  console.log(token);
 
   const [value, setValue] = useState("");
 

@@ -1,5 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { MusicState, PlaylistsType } from "../../models/models";
+import { MusicState, PlaylistsType, Track } from "../../models/models";
 
 export const musicApi = createApi({
   reducerPath: "musicApi",
@@ -14,7 +14,7 @@ export const musicApi = createApi({
     },
   }),
   endpoints: (builder) => ({
-    getTracks: builder.query<MusicState, void>({
+    getTracks: builder.query<Track[], void>({
       query: () => `songs`,
     }),
     getPlaylists: builder.query<PlaylistsType[], void>({
